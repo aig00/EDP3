@@ -71,6 +71,7 @@
             this.Save1.TabIndex = 11;
             this.Save1.Text = "Save";
             this.Save1.UseVisualStyleBackColor = true;
+            this.Save1.Click += new System.EventHandler(this.Save1_Click_1);
             // 
             // AddDepartment
             // 

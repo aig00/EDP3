@@ -32,7 +32,7 @@ namespace InformationSystem_EDP
                 try
                 {
                     conn.Open();
-                    string query = "SELECT DepartmentName, Description, CreatedAt FROM Departments";
+                    string query = "SELECT DepartmentName, CreatedAt FROM Departments";
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
                         using (MySqlDataAdapter adapter = new MySqlDataAdapter(cmd))
@@ -43,14 +43,12 @@ namespace InformationSystem_EDP
                             departmentGridView1.Rows.Clear();
                             departmentGridView1.Columns.Clear();
                             departmentGridView1.Columns.Add("DepartmentName", "Department Name");
-                            departmentGridView1.Columns.Add("Description", "Description");
                             departmentGridView1.Columns.Add("CreatedAt", "Created At");
 
                             foreach (DataRow row in dt.Rows)
                             {
                                 int rowIndex = departmentGridView1.Rows.Add();
                                 departmentGridView1.Rows[rowIndex].Cells["DepartmentName"].Value = row["DepartmentName"];
-                                departmentGridView1.Rows[rowIndex].Cells["Description"].Value = row["Description"];
                                 departmentGridView1.Rows[rowIndex].Cells["CreatedAt"].Value = row["CreatedAt"];
                             }
                         }

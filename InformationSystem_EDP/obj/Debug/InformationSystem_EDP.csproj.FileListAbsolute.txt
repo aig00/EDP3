@@ -86,3 +86,42 @@ C:\Users\Darius\Desktop\Bicol University\EDP\InformationSystem_EDP\bin\Debug\MyS
 C:\Users\Darius\Desktop\Bicol University\EDP\InformationSystem_EDP\bin\Debug\System.Configuration.ConfigurationManager.xml
 C:\Users\Darius\Desktop\Bicol University\EDP\InformationSystem_EDP\bin\Debug\System.IO.Pipelines.xml
 C:\Users\Darius\Desktop\Bicol University\EDP\InformationSystem_EDP\obj\Debug\Informat.E1CB7FE4.Up2Date
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.csproj.AssemblyReference.cache
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.AddProject.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.Dashboard.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.AddEmployee.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.Departments.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.EmployeeM.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.AddDepartment.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.AddTask.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.Logs.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.signUp.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.Task.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.Project.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.Properties.Resources.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.csproj.GenerateResource.cache
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.csproj.CoreCompileInputs.cache
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.exe
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.pdb
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.ForgotPassword.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\InformationSystem_EDP.login.resources
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\InformationSystem_EDP.exe.config
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\InformationSystem_EDP.exe
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\InformationSystem_EDP.pdb
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\System.Buffers.dll
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\System.Memory.dll
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\Google.Protobuf.pdb
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\Google.Protobuf.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\MySql.Data.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Darius\Desktop\EDP3\InformationSystem_EDP\obj\Debug\Informat.E1CB7FE4.Up2Date

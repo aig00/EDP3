@@ -23,17 +23,13 @@ namespace InformationSystem_EDP
 
         private void SetupDataGridView()
         {
-            // Clear existing columns
             dataGridView1.Columns.Clear();
 
-            // Add data columns first
             dataGridView1.Columns.Add("FullName", "Full Name");
             dataGridView1.Columns.Add("Email", "Email");
             dataGridView1.Columns.Add("PhoneNumber", "Phone Number");
             dataGridView1.Columns.Add("DepartmentName", "Department");
-            dataGridView1.Columns.Add("Username", "Username");
 
-            // Add Edit Button Column
             DataGridViewButtonColumn editButton = new DataGridViewButtonColumn();
             editButton.Name = "Edit";
             editButton.HeaderText = "Edit";
@@ -41,7 +37,6 @@ namespace InformationSystem_EDP
             editButton.UseColumnTextForButtonValue = true;
             dataGridView1.Columns.Add(editButton);
 
-            // Add Delete Button Column
             DataGridViewButtonColumn deleteButton = new DataGridViewButtonColumn();
             deleteButton.Name = "Delete";
             deleteButton.HeaderText = "Delete";
@@ -49,7 +44,6 @@ namespace InformationSystem_EDP
             deleteButton.UseColumnTextForButtonValue = true;
             dataGridView1.Columns.Add(deleteButton);
 
-            // Set column properties
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
@@ -65,10 +59,9 @@ namespace InformationSystem_EDP
                 {
                     conn.Open();
                     string query = @"SELECT e.EmployeeID, e.FullName, e.Email, e.PhoneNumber, 
-                                   d.DepartmentName, u.Username 
+                                   d.DepartmentName
                                    FROM Employees e 
-                                   JOIN Departments d ON e.DepartmentID = d.DepartmentID 
-                                   JOIN Users u ON e.UserID = u.UserID";
+                                   JOIN Departments d ON e.DepartmentID = d.DepartmentID";
                     
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
@@ -77,10 +70,8 @@ namespace InformationSystem_EDP
                             DataTable dt = new DataTable();
                             adapter.Fill(dt);
 
-                            // Clear existing rows
                             dataGridView1.Rows.Clear();
 
-                            // Add rows
                             foreach (DataRow row in dt.Rows)
                             {
                                 int rowIndex = dataGridView1.Rows.Add();
@@ -88,8 +79,7 @@ namespace InformationSystem_EDP
                                 dataGridView1.Rows[rowIndex].Cells["Email"].Value = row["Email"];
                                 dataGridView1.Rows[rowIndex].Cells["PhoneNumber"].Value = row["PhoneNumber"];
                                 dataGridView1.Rows[rowIndex].Cells["DepartmentName"].Value = row["DepartmentName"];
-                                dataGridView1.Rows[rowIndex].Cells["Username"].Value = row["Username"];
-                                dataGridView1.Rows[rowIndex].Tag = row["EmployeeID"]; // Store EmployeeID in Tag
+                                dataGridView1.Rows[rowIndex].Tag = row["EmployeeID"];
                             }
                         }
                     }
@@ -150,27 +140,24 @@ namespace InformationSystem_EDP
                 {
                     conn.Open();
                     string query = @"SELECT e.EmployeeID, e.FullName, e.Email, e.PhoneNumber, 
-                                   d.DepartmentName, u.Username 
+                                   d.DepartmentName
                                    FROM Employees e 
-                                   JOIN Departments d ON e.DepartmentID = d.DepartmentID 
-                                   JOIN Users u ON e.UserID = u.UserID
-                                   WHERE LOWER(e.FullName) LIKE @Search 
-                                   OR LOWER(e.Email) LIKE @Search 
-                                   OR LOWER(d.DepartmentName) LIKE @Search 
-                                   OR LOWER(u.Username) LIKE @Search";
+                                   JOIN Departments d ON e.DepartmentID = d.DepartmentID
+                                   WHERE e.FullName LIKE @SearchText 
+                                   OR e.Email LIKE @SearchText 
+                                   OR e.PhoneNumber LIKE @SearchText 
+                                   OR d.DepartmentName LIKE @SearchText";
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@Search", "%" + searchText + "%");
+                        cmd.Parameters.AddWithValue("@SearchText", "%" + searchText + "%");
                         using (MySqlDataAdapter adapter = new MySqlDataAdapter(cmd))
                         {
                             DataTable dt = new DataTable();
                             adapter.Fill(dt);
 
-                            // Clear existing rows
                             dataGridView1.Rows.Clear();
 
-                            // Add rows
                             foreach (DataRow row in dt.Rows)
                             {
                                 int rowIndex = dataGridView1.Rows.Add();
@@ -178,8 +165,7 @@ namespace InformationSystem_EDP
                                 dataGridView1.Rows[rowIndex].Cells["Email"].Value = row["Email"];
                                 dataGridView1.Rows[rowIndex].Cells["PhoneNumber"].Value = row["PhoneNumber"];
                                 dataGridView1.Rows[rowIndex].Cells["DepartmentName"].Value = row["DepartmentName"];
-                                dataGridView1.Rows[rowIndex].Cells["Username"].Value = row["Username"];
-                                dataGridView1.Rows[rowIndex].Tag = row["EmployeeID"]; // Store EmployeeID in Tag
+                                dataGridView1.Rows[rowIndex].Tag = row["EmployeeID"];
                             }
                         }
                     }
@@ -210,36 +196,9 @@ namespace InformationSystem_EDP
 
         private void EditEmployee(int employeeId)
         {
-            using (MySqlConnection conn = DbHelper.GetConnection())
-            {
-                try
-                {
-                    conn.Open();
-                    string query = @"SELECT e.*, d.DepartmentName, u.Username 
-                                   FROM Employees e 
-                                   JOIN Departments d ON e.DepartmentID = d.DepartmentID 
-                                   JOIN Users u ON e.UserID = u.UserID 
-                                   WHERE e.EmployeeID = @EmployeeID";
-
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@EmployeeID", employeeId);
-                        using (MySqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            if (reader.Read())
-                            {
-                                AddEmployee editForm = new AddEmployee(employeeId);
-                                editForm.FormClosed += (s, args) => LoadEmployees();
-                                editForm.Show();
-                            }
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error loading employee details: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
+            AddEmployee editForm = new AddEmployee(employeeId);
+            editForm.FormClosed += (s, args) => LoadEmployees();
+            editForm.Show();
         }
 
         private void DeleteEmployee(int employeeId)

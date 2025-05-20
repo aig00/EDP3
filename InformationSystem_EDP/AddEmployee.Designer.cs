@@ -32,19 +32,17 @@
             this.EmailAE = new System.Windows.Forms.TextBox();
             this.PhoneNumberAE = new System.Windows.Forms.TextBox();
             this.DepartmentAE = new System.Windows.Forms.ComboBox();
-            this.UsernameAE = new System.Windows.Forms.TextBox();
             this.Save1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // FullNameAE
             // 
             this.FullNameAE.Location = new System.Drawing.Point(160, 15);
-            this.FullNameAE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FullNameAE.Margin = new System.Windows.Forms.Padding(4);
             this.FullNameAE.Name = "FullNameAE";
             this.FullNameAE.Size = new System.Drawing.Size(265, 22);
             this.FullNameAE.TabIndex = 0;
@@ -52,7 +50,7 @@
             // EmailAE
             // 
             this.EmailAE.Location = new System.Drawing.Point(160, 47);
-            this.EmailAE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EmailAE.Margin = new System.Windows.Forms.Padding(4);
             this.EmailAE.Name = "EmailAE";
             this.EmailAE.Size = new System.Drawing.Size(265, 22);
             this.EmailAE.TabIndex = 1;
@@ -60,7 +58,7 @@
             // PhoneNumberAE
             // 
             this.PhoneNumberAE.Location = new System.Drawing.Point(160, 79);
-            this.PhoneNumberAE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PhoneNumberAE.Margin = new System.Windows.Forms.Padding(4);
             this.PhoneNumberAE.Name = "PhoneNumberAE";
             this.PhoneNumberAE.Size = new System.Drawing.Size(265, 22);
             this.PhoneNumberAE.TabIndex = 2;
@@ -70,24 +68,16 @@
             this.DepartmentAE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DepartmentAE.FormattingEnabled = true;
             this.DepartmentAE.Location = new System.Drawing.Point(160, 111);
-            this.DepartmentAE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DepartmentAE.Margin = new System.Windows.Forms.Padding(4);
             this.DepartmentAE.Name = "DepartmentAE";
             this.DepartmentAE.Size = new System.Drawing.Size(265, 24);
             this.DepartmentAE.TabIndex = 3;
             this.DepartmentAE.SelectedIndexChanged += new System.EventHandler(this.DepartmentAE_SelectedIndexChanged);
             // 
-            // UsernameAE
-            // 
-            this.UsernameAE.Location = new System.Drawing.Point(160, 144);
-            this.UsernameAE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.UsernameAE.Name = "UsernameAE";
-            this.UsernameAE.Size = new System.Drawing.Size(265, 22);
-            this.UsernameAE.TabIndex = 4;
-            // 
             // Save1
             // 
             this.Save1.Location = new System.Drawing.Point(160, 176);
-            this.Save1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Save1.Margin = new System.Windows.Forms.Padding(4);
             this.Save1.Name = "Save1";
             this.Save1.Size = new System.Drawing.Size(100, 28);
             this.Save1.TabIndex = 5;
@@ -135,34 +125,22 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Department";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(16, 148);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 16);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Username";
-            // 
             // AddEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 223);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Save1);
-            this.Controls.Add(this.UsernameAE);
             this.Controls.Add(this.DepartmentAE);
             this.Controls.Add(this.PhoneNumberAE);
             this.Controls.Add(this.EmailAE);
             this.Controls.Add(this.FullNameAE);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AddEmployee";
@@ -179,12 +157,10 @@
         private System.Windows.Forms.TextBox EmailAE;
         private System.Windows.Forms.TextBox PhoneNumberAE;
         private System.Windows.Forms.ComboBox DepartmentAE;
-        private System.Windows.Forms.TextBox UsernameAE;
         private System.Windows.Forms.Button Save1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
     }
 }
