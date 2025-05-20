@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.logsGridView1 = new System.Windows.Forms.DataGridView();
             this.ActionL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ActionDateL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EmployeeL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logsGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // logsGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.logsGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.logsGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.logsGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ActionL,
             this.ActionDateL,
             this.EmployeeL});
-            this.dataGridView1.Location = new System.Drawing.Point(16, 18);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(717, 450);
-            this.dataGridView1.TabIndex = 0;
+            this.logsGridView1.Location = new System.Drawing.Point(16, 18);
+            this.logsGridView1.Name = "logsGridView1";
+            this.logsGridView1.ReadOnly = true;
+            this.logsGridView1.RowHeadersWidth = 51;
+            this.logsGridView1.RowTemplate.Height = 24;
+            this.logsGridView1.Size = new System.Drawing.Size(717, 450);
+            this.logsGridView1.TabIndex = 0;
             // 
             // ActionL
             // 
@@ -80,18 +80,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(749, 480);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.logsGridView1);
             this.Name = "Logs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logsGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView logsGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ActionL;
         private System.Windows.Forms.DataGridViewTextBoxColumn ActionDateL;
         private System.Windows.Forms.DataGridViewTextBoxColumn EmployeeL;

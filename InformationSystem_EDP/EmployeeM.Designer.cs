@@ -21,27 +21,6 @@ namespace InformationSystem_EDP
             }
             base.Dispose(disposing);
         }
-        private void SetupDataGridView()
-        {
-            // Assume dataGridView1 is already placed on the form.
-
-            // Add Edit Button Column
-            DataGridViewButtonColumn editButton = new DataGridViewButtonColumn();
-            editButton.Name = "Edit";
-            editButton.HeaderText = "Edit";
-            editButton.Text = "Edit";
-            editButton.UseColumnTextForButtonValue = true;
-            dataGridView1.Columns.Add(editButton);
-
-            // Add Delete Button Column
-            DataGridViewButtonColumn deleteButton = new DataGridViewButtonColumn();
-            deleteButton.Name = "Delete";
-            deleteButton.HeaderText = "Delete";
-            deleteButton.Text = "Delete";
-            deleteButton.UseColumnTextForButtonValue = true;
-            dataGridView1.Columns.Add(deleteButton);
-        }
-
 
         #region Windows Form Designer generated code
 
@@ -52,113 +31,90 @@ namespace InformationSystem_EDP
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.FullNameE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EmailE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PhoneNumberE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DepartmentE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UsernameE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AddE = new System.Windows.Forms.Button();
-            this.SaveE = new System.Windows.Forms.Button();
+            this.SearchBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.DepartmentAE = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.FullNameE,
-            this.EmailE,
-            this.PhoneNumberE,
-            this.DepartmentE,
-            this.UsernameE});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 50);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 60);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(805, 289);
-            this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(776, 378);
+            this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // FullNameE
-            // 
-            this.FullNameE.HeaderText = "Full Name";
-            this.FullNameE.MinimumWidth = 6;
-            this.FullNameE.Name = "FullNameE";
-            this.FullNameE.Width = 150;
-            // 
-            // EmailE
-            // 
-            this.EmailE.HeaderText = "Email";
-            this.EmailE.MinimumWidth = 6;
-            this.EmailE.Name = "EmailE";
-            this.EmailE.Width = 150;
-            // 
-            // PhoneNumberE
-            // 
-            this.PhoneNumberE.HeaderText = "Phone Number";
-            this.PhoneNumberE.MinimumWidth = 6;
-            this.PhoneNumberE.Name = "PhoneNumberE";
-            this.PhoneNumberE.Width = 150;
-            // 
-            // DepartmentE
-            // 
-            this.DepartmentE.HeaderText = "Department";
-            this.DepartmentE.MinimumWidth = 6;
-            this.DepartmentE.Name = "DepartmentE";
-            this.DepartmentE.Width = 150;
-            // 
-            // UsernameE
-            // 
-            this.UsernameE.HeaderText = "Username";
-            this.UsernameE.MinimumWidth = 6;
-            this.UsernameE.Name = "UsernameE";
-            this.UsernameE.Width = 150;
             // 
             // AddE
             // 
-            this.AddE.Location = new System.Drawing.Point(843, 145);
+            this.AddE.Location = new System.Drawing.Point(12, 12);
             this.AddE.Name = "AddE";
-            this.AddE.Size = new System.Drawing.Size(108, 46);
-            this.AddE.TabIndex = 3;
+            this.AddE.Size = new System.Drawing.Size(75, 23);
+            this.AddE.TabIndex = 1;
             this.AddE.Text = "Add";
             this.AddE.UseVisualStyleBackColor = true;
             this.AddE.Click += new System.EventHandler(this.AddE_Click);
             // 
-            // SaveE
+            // SearchBox
             // 
-            this.SaveE.Location = new System.Drawing.Point(843, 197);
-            this.SaveE.Name = "SaveE";
-            this.SaveE.Size = new System.Drawing.Size(108, 46);
-            this.SaveE.TabIndex = 4;
-            this.SaveE.Text = "Save";
-            this.SaveE.UseVisualStyleBackColor = true;
+            this.SearchBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SearchBox.Location = new System.Drawing.Point(613, 14);
+            this.SearchBox.Name = "SearchBox";
+            this.SearchBox.Size = new System.Drawing.Size(175, 20);
+            this.SearchBox.TabIndex = 2;
+            this.SearchBox.TextChanged += new System.EventHandler(this.SearchBox_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(566, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Search";
+            // 
+            // DepartmentAE
+            // 
+            this.DepartmentAE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DepartmentAE.FormattingEnabled = true;
+            this.DepartmentAE.Location = new System.Drawing.Point(93, 12);
+            this.DepartmentAE.Name = "DepartmentAE";
+            this.DepartmentAE.Size = new System.Drawing.Size(121, 21);
+            this.DepartmentAE.TabIndex = 4;
             // 
             // EmployeeM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(980, 378);
-            this.Controls.Add(this.SaveE);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.DepartmentAE);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.SearchBox);
             this.Controls.Add(this.AddE);
             this.Controls.Add(this.dataGridView1);
             this.Name = "EmployeeM";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Employee";
+            this.Text = "Employee Management";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-
+            this.PerformLayout();
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FullNameE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn EmailE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNumberE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DepartmentE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn UsernameE;
         private System.Windows.Forms.Button AddE;
-        private System.Windows.Forms.Button SaveE;
+        private System.Windows.Forms.TextBox SearchBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox DepartmentAE;
     }
 }

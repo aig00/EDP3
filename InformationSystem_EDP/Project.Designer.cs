@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.projectsGridView1 = new System.Windows.Forms.DataGridView();
             this.ProjectNamePT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DescriptionPT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.StartDatePT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EndDatePT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AddP = new System.Windows.Forms.Button();
             this.SaveP = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectsGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // projectsGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.projectsGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.projectsGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.projectsGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ProjectNamePT,
             this.DescriptionPT,
             this.StartDatePT,
             this.EndDatePT});
-            this.dataGridView1.Location = new System.Drawing.Point(15, 16);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(603, 415);
-            this.dataGridView1.TabIndex = 0;
+            this.projectsGridView1.Location = new System.Drawing.Point(15, 16);
+            this.projectsGridView1.Name = "projectsGridView1";
+            this.projectsGridView1.RowHeadersWidth = 51;
+            this.projectsGridView1.RowTemplate.Height = 24;
+            this.projectsGridView1.Size = new System.Drawing.Size(603, 415);
+            this.projectsGridView1.TabIndex = 0;
             // 
             // ProjectNamePT
             // 
@@ -108,18 +108,18 @@
             this.ClientSize = new System.Drawing.Size(824, 450);
             this.Controls.Add(this.SaveP);
             this.Controls.Add(this.AddP);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.projectsGridView1);
             this.Name = "Project";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Project";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectsGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView projectsGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ProjectNamePT;
         private System.Windows.Forms.DataGridViewTextBoxColumn DescriptionPT;
         private System.Windows.Forms.DataGridViewTextBoxColumn StartDatePT;

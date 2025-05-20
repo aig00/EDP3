@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tasksGridView1 = new System.Windows.Forms.DataGridView();
             this.TitleT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DescriptionE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DueDateT = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -36,25 +36,25 @@
             this.ProjectT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AddT = new System.Windows.Forms.Button();
             this.SaveT = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tasksGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // tasksGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.tasksGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tasksGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tasksGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.TitleT,
             this.DescriptionE,
             this.DueDateT,
             this.AssignedToT,
             this.ProjectT});
-            this.dataGridView1.Location = new System.Drawing.Point(7, 11);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(678, 431);
-            this.dataGridView1.TabIndex = 0;
+            this.tasksGridView1.Location = new System.Drawing.Point(7, 11);
+            this.tasksGridView1.Name = "tasksGridView1";
+            this.tasksGridView1.RowHeadersWidth = 51;
+            this.tasksGridView1.RowTemplate.Height = 24;
+            this.tasksGridView1.Size = new System.Drawing.Size(678, 431);
+            this.tasksGridView1.TabIndex = 0;
             // 
             // TitleT
             // 
@@ -117,18 +117,18 @@
             this.ClientSize = new System.Drawing.Size(855, 450);
             this.Controls.Add(this.SaveT);
             this.Controls.Add(this.AddT);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.tasksGridView1);
             this.Name = "Task";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Task";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tasksGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView tasksGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn TitleT;
         private System.Windows.Forms.DataGridViewTextBoxColumn DescriptionE;
         private System.Windows.Forms.DataGridViewTextBoxColumn DueDateT;

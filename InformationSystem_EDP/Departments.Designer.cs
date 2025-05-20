@@ -28,36 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.DepartmentT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.departmentGridView1 = new System.Windows.Forms.DataGridView();
             this.SaveD = new System.Windows.Forms.Button();
             this.AddD = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.DepartmentT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Created = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.departmentGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // departmentGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.DepartmentT});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 21);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(403, 289);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // DepartmentT
-            // 
-            this.DepartmentT.HeaderText = "Department";
-            this.DepartmentT.MinimumWidth = 6;
-            this.DepartmentT.Name = "DepartmentT";
-            this.DepartmentT.Width = 350;
+            this.departmentGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.departmentGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.departmentGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DepartmentT,
+            this.Description,
+            this.Created});
+            this.departmentGridView1.Location = new System.Drawing.Point(12, 21);
+            this.departmentGridView1.Name = "departmentGridView1";
+            this.departmentGridView1.RowHeadersWidth = 51;
+            this.departmentGridView1.RowTemplate.Height = 24;
+            this.departmentGridView1.Size = new System.Drawing.Size(781, 289);
+            this.departmentGridView1.TabIndex = 0;
             // 
             // SaveD
             // 
-            this.SaveD.Location = new System.Drawing.Point(445, 173);
+            this.SaveD.Location = new System.Drawing.Point(849, 176);
             this.SaveD.Name = "SaveD";
             this.SaveD.Size = new System.Drawing.Size(108, 46);
             this.SaveD.TabIndex = 1;
@@ -66,7 +63,7 @@
             // 
             // AddD
             // 
-            this.AddD.Location = new System.Drawing.Point(445, 121);
+            this.AddD.Location = new System.Drawing.Point(849, 108);
             this.AddD.Name = "AddD";
             this.AddD.Size = new System.Drawing.Size(108, 46);
             this.AddD.TabIndex = 2;
@@ -74,27 +71,50 @@
             this.AddD.UseVisualStyleBackColor = true;
             this.AddD.Click += new System.EventHandler(this.AddD_Click);
             // 
+            // DepartmentT
+            // 
+            this.DepartmentT.HeaderText = "Department";
+            this.DepartmentT.MinimumWidth = 6;
+            this.DepartmentT.Name = "DepartmentT";
+            this.DepartmentT.Width = 350;
+            // 
+            // Description
+            // 
+            this.Description.HeaderText = "Description";
+            this.Description.MinimumWidth = 6;
+            this.Description.Name = "Description";
+            this.Description.Width = 125;
+            // 
+            // Created
+            // 
+            this.Created.HeaderText = "Created";
+            this.Created.MinimumWidth = 6;
+            this.Created.Name = "Created";
+            this.Created.Width = 125;
+            // 
             // Departments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 319);
+            this.ClientSize = new System.Drawing.Size(969, 384);
             this.Controls.Add(this.AddD);
             this.Controls.Add(this.SaveD);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.departmentGridView1);
             this.Name = "Departments";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Departments";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.departmentGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DepartmentT;
+        private System.Windows.Forms.DataGridView departmentGridView1;
         private System.Windows.Forms.Button SaveD;
         private System.Windows.Forms.Button AddD;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DepartmentT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Created;
     }
 }

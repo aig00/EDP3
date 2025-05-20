@@ -31,6 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.DepartmentD = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SettingsD = new System.Windows.Forms.Button();
             this.LogsD = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -41,16 +42,15 @@
             this.EmployeeD = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.DashboardD = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dashboardGridView1 = new System.Windows.Forms.DataGridView();
             this.NameDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EmailDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PhoneNumberDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DepartmentDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LinkedUsernameDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TasksDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dashboardGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -93,6 +93,17 @@
             this.DepartmentD.Text = "Department";
             this.DepartmentD.UseVisualStyleBackColor = true;
             this.DepartmentD.Click += new System.EventHandler(this.DepartmentD_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.IndianRed;
+            this.button6.Location = new System.Drawing.Point(34, 488);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(108, 46);
+            this.button6.TabIndex = 6;
+            this.button6.Text = "Log Out";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // SettingsD
             // 
@@ -193,24 +204,24 @@
             this.DashboardD.UseVisualStyleBackColor = true;
             this.DashboardD.Click += new System.EventHandler(this.Dashboard1_Click);
             // 
-            // dataGridView1
+            // dashboardGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dashboardGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dashboardGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dashboardGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.NameDT,
             this.EmailDT,
             this.PhoneNumberDT,
             this.DepartmentDT,
             this.LinkedUsernameDT,
             this.TasksDT});
-            this.dataGridView1.Location = new System.Drawing.Point(196, 57);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(955, 511);
-            this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dashboardGridView1.Location = new System.Drawing.Point(196, 57);
+            this.dashboardGridView1.Name = "dashboardGridView1";
+            this.dashboardGridView1.RowHeadersWidth = 51;
+            this.dashboardGridView1.RowTemplate.Height = 24;
+            this.dashboardGridView1.Size = new System.Drawing.Size(955, 511);
+            this.dashboardGridView1.TabIndex = 1;
+            this.dashboardGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // NameDT
             // 
@@ -243,7 +254,7 @@
             // 
             // LinkedUsernameDT
             // 
-            this.LinkedUsernameDT.HeaderText = "LinkedUsername";
+            this.LinkedUsernameDT.HeaderText = "Projects";
             this.LinkedUsernameDT.MinimumWidth = 6;
             this.LinkedUsernameDT.Name = "LinkedUsernameDT";
             this.LinkedUsernameDT.Width = 150;
@@ -255,29 +266,18 @@
             this.TasksDT.Name = "TasksDT";
             this.TasksDT.Width = 150;
             // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.IndianRed;
-            this.button6.Location = new System.Drawing.Point(34, 488);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(108, 46);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Log Out";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1157, 601);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dashboardGridView1);
             this.Controls.Add(this.panel1);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dashboardGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -291,20 +291,20 @@
         private System.Windows.Forms.Button ProjectsD;
         private System.Windows.Forms.Button EmployeeD;
         private System.Windows.Forms.Button DashboardD;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dashboardGridView1;
         private System.Windows.Forms.Button DepartmentD;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.DataGridViewTextBoxColumn NameDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn EmailDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNumberDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn DepartmentDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn LinkedUsernameDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn TasksDT;
-        private System.Windows.Forms.Button button6;
     }
 }
 

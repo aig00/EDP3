@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\bicol university\\edp\\informationsystem_edp\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\project.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:project.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\departments.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:departments.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\employeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:employeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\employeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:employeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\dbhelper.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dbhelper.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 303,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Project.cs",
+              "RelativeDocumentMoniker": "Project.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Project.cs",
+              "RelativeToolTip": "Project.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wDIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:17:51.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DBhelper.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\DBhelper.cs",
+              "RelativeDocumentMoniker": "DBhelper.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\DBhelper.cs",
+              "RelativeToolTip": "DBhelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:45:51.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Departments.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Departments.Designer.cs",
+              "RelativeDocumentMoniker": "Departments.Designer.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Departments.Designer.cs",
+              "RelativeToolTip": "Departments.Designer.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:44:11.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Departments.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Departments.cs",
+              "RelativeDocumentMoniker": "Departments.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Departments.cs",
+              "RelativeToolTip": "Departments.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:37:30.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\AddEmployee.cs",
+              "RelativeDocumentMoniker": "AddEmployee.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\AddEmployee.cs",
+              "RelativeToolTip": "AddEmployee.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:01:59.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Project.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Project.cs",
+              "RelativeDocumentMoniker": "Project.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Project.cs [Design]",
+              "RelativeToolTip": "Project.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:09:51.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Task.cs",
+              "RelativeDocumentMoniker": "Task.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Task.cs [Design]",
+              "RelativeToolTip": "Task.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:10:48.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Logs.cs",
+              "RelativeDocumentMoniker": "Logs.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Logs.cs [Design]",
+              "RelativeToolTip": "Logs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:11:34.669Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Project.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Project.Designer.cs",
+              "RelativeDocumentMoniker": "Project.Designer.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Project.Designer.cs",
+              "RelativeToolTip": "Project.Designer.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:21:22.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Departments.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Departments.cs",
+              "RelativeDocumentMoniker": "Departments.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Departments.cs [Design]",
+              "RelativeToolTip": "Departments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:09:22.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeM.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\EmployeeM.cs",
+              "RelativeDocumentMoniker": "EmployeeM.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\EmployeeM.cs [Design]",
+              "RelativeToolTip": "EmployeeM.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:08:36.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:05:00.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:08:27.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeM.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\EmployeeM.cs",
+              "RelativeDocumentMoniker": "EmployeeM.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\EmployeeM.cs",
+              "RelativeToolTip": "EmployeeM.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:25:55.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddEmployee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\AddEmployee.cs",
+              "RelativeDocumentMoniker": "AddEmployee.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\AddEmployee.cs [Design]",
+              "RelativeToolTip": "AddEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:01:53.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DBhelper.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\DBhelper.Designer.cs",
+              "RelativeDocumentMoniker": "DBhelper.Designer.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\DBhelper.Designer.cs",
+              "RelativeToolTip": "DBhelper.Designer.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:02:24.863Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
