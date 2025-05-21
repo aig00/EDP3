@@ -16,41 +16,18 @@ namespace InformationSystem_EDP
         public AddProject()
         {
             InitializeComponent();
+            InitializeStatusComboBox();
+        }
+
+        private void InitializeStatusComboBox()
+        {
+            // Initialize Status ComboBox with project statuses
+            statusSelect.Items.AddRange(new string[] { "Active", "On Hold", "Completed", "Cancelled" });
+            statusSelect.SelectedIndex = 0; // Default to Active
         }
 
         private void Save1_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(ProjectNameAP.Text))
-            {
-                MessageBox.Show("Please enter a project name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            using (MySqlConnection conn = DbHelper.GetConnection())
-            {
-                try
-                {
-                    conn.Open();
-                    string query = @"INSERT INTO Projects (ProjectName, Description, StartDate, EndDate, Status, CreatedAt, UpdatedAt) 
-                                   VALUES (@ProjectName, @Description, @StartDate, @EndDate, 'Active', NOW(), NOW())";
-
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@ProjectName", ProjectNameAP.Text);
-                        cmd.Parameters.AddWithValue("@Description", EmailAE.Text);
-                        cmd.Parameters.AddWithValue("@StartDate", StartDateAP.Value);
-                        cmd.Parameters.AddWithValue("@EndDate", EndDateAP.Value);
-
-                        cmd.ExecuteNonQuery();
-                        MessageBox.Show("Project added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        this.Close();
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error adding project: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -65,17 +42,59 @@ namespace InformationSystem_EDP
 
         private void AddProject_Load(object sender, EventArgs e)
         {
-            // Set default dates
-            StartDateAP.Value = DateTime.Now;
-            EndDateAP.Value = DateTime.Now.AddMonths(1);
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void label2_Click_1(object sender, EventArgs e)
         {
 
         }
 
-        private void ProjectNameAP_TextChanged(object sender, EventArgs e)
+        private void Save1_Click_1(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(ProjectNameAP.Text))
+            {
+                MessageBox.Show("Please enter a project name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            using (MySqlConnection conn = DbHelper.GetConnection())
+            {
+                try
+                {
+                    conn.Open();
+                    string query = @"INSERT INTO Projects (ProjectName, StartDate, EndDate, Status, CreatedAt) 
+                                   VALUES (@ProjectName, @StartDate, @EndDate, @Status, NOW())";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@ProjectName", ProjectNameAP.Text);
+                        cmd.Parameters.AddWithValue("@StartDate", StartDateAP.Value);
+                        cmd.Parameters.AddWithValue("@EndDate", EndDateAP.Value);
+                        cmd.Parameters.AddWithValue("@Status", statusSelect.SelectedItem?.ToString() ?? "Active");
+
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("Project added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Close();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error adding project: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void statusSelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EndDateAP_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StartDateAP_ValueChanged(object sender, EventArgs e)
         {
 
         }

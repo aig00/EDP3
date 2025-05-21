@@ -3,112 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\adddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:adddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\adddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:adddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\logs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:logs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\project.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:project.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\departments.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:departments.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\employeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:employeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\employeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:employeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\dbhelper.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dbhelper.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,331 +50,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 303,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Task.cs",
-              "RelativeDocumentMoniker": "Task.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Task.cs",
-              "RelativeToolTip": "Task.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAADwvyMAAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:08:37.211Z",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T03:17:39.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\login.cs",
-              "RelativeDocumentMoniker": "login.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\login.cs [Design]",
-              "RelativeToolTip": "login.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:55:14.283Z"
+              "WhenOpened": "2025-05-21T03:17:35.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBhelper.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\DBhelper.cs",
+              "RelativeDocumentMoniker": "DBhelper.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\DBhelper.cs",
+              "RelativeToolTip": "DBhelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T03:17:30.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logs.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.Designer.cs",
+              "RelativeDocumentMoniker": "Logs.Designer.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.Designer.cs",
+              "RelativeToolTip": "Logs.Designer.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAD8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T02:22:59.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Departments.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Departments.cs",
-              "RelativeDocumentMoniker": "Departments.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Departments.cs [Design]",
-              "RelativeToolTip": "Departments.cs [Design]",
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:09:22.553Z",
+              "WhenOpened": "2025-05-21T01:35:23.636Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Departments.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Departments.cs",
-              "RelativeDocumentMoniker": "Departments.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Departments.cs",
-              "RelativeToolTip": "Departments.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAADwvyIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:37:30.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Task.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Task.cs",
               "RelativeDocumentMoniker": "Task.cs",
               "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Task.cs [Design]",
               "RelativeToolTip": "Task.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:10:48.353Z",
+              "WhenOpened": "2025-05-21T01:34:44.208Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddEmployee.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddEmployee.cs",
-              "RelativeDocumentMoniker": "AddEmployee.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddEmployee.cs [Design]",
-              "RelativeToolTip": "AddEmployee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:01:53.113Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddEmployee.cs",
-              "RelativeDocumentMoniker": "AddEmployee.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddEmployee.cs",
-              "RelativeToolTip": "AddEmployee.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAkwHYAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:01:59.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DBhelper.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\DBhelper.cs",
-              "RelativeDocumentMoniker": "DBhelper.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\DBhelper.cs",
-              "RelativeToolTip": "DBhelper.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwE8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:45:51.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "signUp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\signUp.cs",
-              "RelativeDocumentMoniker": "signUp.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\signUp.cs [Design]",
-              "RelativeToolTip": "signUp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:56:14.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\login.cs",
-              "RelativeDocumentMoniker": "login.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\login.cs",
-              "RelativeToolTip": "login.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:56:25.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddTask.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddTask.cs",
-              "RelativeDocumentMoniker": "AddTask.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddTask.cs",
-              "RelativeToolTip": "AddTask.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAqwCQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T05:58:07.953Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AddDepartment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddDepartment.cs",
-              "RelativeDocumentMoniker": "AddDepartment.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddDepartment.cs [Design]",
-              "RelativeToolTip": "AddDepartment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T05:32:48.648Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddDepartment.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddDepartment.cs",
-              "RelativeDocumentMoniker": "AddDepartment.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddDepartment.cs",
-              "RelativeToolTip": "AddDepartment.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T05:54:17.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddTask.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddTask.cs",
-              "RelativeDocumentMoniker": "AddTask.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\AddTask.cs [Design]",
-              "RelativeToolTip": "AddTask.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T05:56:18.394Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "signUp.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\signUp.cs",
-              "RelativeDocumentMoniker": "signUp.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\signUp.cs",
-              "RelativeToolTip": "signUp.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:59:47.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ForgotPassword.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\ForgotPassword.cs",
-              "RelativeDocumentMoniker": "ForgotPassword.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\ForgotPassword.cs [Design]",
-              "RelativeToolTip": "ForgotPassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:15:15.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ForgotPassword.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\ForgotPassword.cs",
-              "RelativeDocumentMoniker": "ForgotPassword.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\ForgotPassword.cs",
-              "RelativeToolTip": "ForgotPassword.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAFsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:15:23.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Project.cs",
-              "RelativeDocumentMoniker": "Project.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Project.cs",
-              "RelativeToolTip": "Project.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wDIAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T14:17:51.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Departments.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Departments.Designer.cs",
-              "RelativeDocumentMoniker": "Departments.Designer.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Departments.Designer.cs",
-              "RelativeToolTip": "Departments.Designer.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwDQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:44:11.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Project.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Project.cs",
               "RelativeDocumentMoniker": "Project.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Project.cs [Design]",
-              "RelativeToolTip": "..\\..\\Bicol University\\EDP\\InformationSystem_EDP\\Project.cs [Design]",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Project.cs [Design]",
+              "RelativeToolTip": "Project.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:09:51.755Z"
+              "WhenOpened": "2025-05-21T01:34:41.935Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
+              "Title": "Logs.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.cs",
+              "RelativeDocumentMoniker": "Logs.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.cs",
+              "RelativeToolTip": "Logs.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T01:34:31.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Logs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.cs",
               "RelativeDocumentMoniker": "Logs.cs",
               "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.cs [Design]",
               "RelativeToolTip": "Logs.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:11:34.669Z"
+              "WhenOpened": "2025-05-21T01:34:26.774Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Project.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Project.Designer.cs",
-              "RelativeDocumentMoniker": "Project.Designer.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Project.Designer.cs",
-              "RelativeToolTip": "Project.Designer.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAwDYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T14:21:22.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 7,
               "Title": "EmployeeM.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\EmployeeM.cs",
               "RelativeDocumentMoniker": "EmployeeM.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\EmployeeM.cs [Design]",
-              "RelativeToolTip": "..\\..\\Bicol University\\EDP\\InformationSystem_EDP\\EmployeeM.cs [Design]",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\EmployeeM.cs [Design]",
+              "RelativeToolTip": "EmployeeM.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:08:36.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\Bicol University\\EDP\\InformationSystem_EDP\\Dashboard.cs [Design]",
-              "RelativeToolTip": "..\\..\\Bicol University\\EDP\\InformationSystem_EDP\\Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:05:00.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Dashboard.cs",
-              "RelativeToolTip": "Dashboard.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:08:27.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "EmployeeM.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\EmployeeM.cs",
-              "RelativeDocumentMoniker": "EmployeeM.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\EmployeeM.cs",
-              "RelativeToolTip": "EmployeeM.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwCgAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:25:55.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "DBhelper.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\DBhelper.Designer.cs",
-              "RelativeDocumentMoniker": "DBhelper.Designer.cs",
-              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\DBhelper.Designer.cs",
-              "RelativeToolTip": "DBhelper.Designer.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:02:24.863Z"
+              "WhenOpened": "2025-05-21T01:29:49.815Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

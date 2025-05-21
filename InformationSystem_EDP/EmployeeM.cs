@@ -231,5 +231,93 @@ namespace InformationSystem_EDP
                 }
             }
         }
+
+        private void export_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "CSV files (*.csv)|*.csv";
+                saveFileDialog.Title = "Export Employee Data";
+                saveFileDialog.FileName = "employees_" + DateTime.Now.ToString("yyyyMMdd");
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    StringBuilder csv = new StringBuilder();
+                    
+                    // Add headers
+                    csv.AppendLine("Full Name,Email,Phone Number,Department");
+
+                    // Add data
+                    foreach (DataGridViewRow row in dataGridView1.Rows)
+                    {
+                        if (!row.IsNewRow)
+                        {
+                            csv.AppendLine(string.Format("{0},{1},{2},{3}",
+                                row.Cells["FullName"].Value,
+                                row.Cells["Email"].Value,
+                                row.Cells["PhoneNumber"].Value,
+                                row.Cells["DepartmentName"].Value));
+                        }
+                    }
+
+                    System.IO.File.WriteAllText(saveFileDialog.FileName, csv.ToString());
+                    MessageBox.Show("Data exported successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error exporting data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void DepartmentAE_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedDepartment = DepartmentAE.SelectedItem?.ToString();
+            if (string.IsNullOrEmpty(selectedDepartment))
+            {
+                LoadEmployees();
+                return;
+            }
+
+            using (MySqlConnection conn = DbHelper.GetConnection())
+            {
+                try
+                {
+                    conn.Open();
+                    string query = @"SELECT e.EmployeeID, e.FullName, e.Email, e.PhoneNumber, 
+                                   d.DepartmentName
+                                   FROM Employees e 
+                                   JOIN Departments d ON e.DepartmentID = d.DepartmentID
+                                   WHERE d.DepartmentName = @DepartmentName";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@DepartmentName", selectedDepartment);
+                        using (MySqlDataAdapter adapter = new MySqlDataAdapter(cmd))
+                        {
+                            DataTable dt = new DataTable();
+                            adapter.Fill(dt);
+
+                            dataGridView1.Rows.Clear();
+
+                            foreach (DataRow row in dt.Rows)
+                            {
+                                int rowIndex = dataGridView1.Rows.Add();
+                                dataGridView1.Rows[rowIndex].Cells["FullName"].Value = row["FullName"];
+                                dataGridView1.Rows[rowIndex].Cells["Email"].Value = row["Email"];
+                                dataGridView1.Rows[rowIndex].Cells["PhoneNumber"].Value = row["PhoneNumber"];
+                                dataGridView1.Rows[rowIndex].Cells["DepartmentName"].Value = row["DepartmentName"];
+                                dataGridView1.Rows[rowIndex].Tag = row["EmployeeID"];
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error filtering employees: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
     }
 }

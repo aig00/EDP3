@@ -43,6 +43,7 @@
             this.confirmpasswordSignUp = new System.Windows.Forms.TextBox();
             this.passwordSignUp = new System.Windows.Forms.TextBox();
             this.usernameSignUp = new System.Windows.Forms.TextBox();
+            this.login = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // answerSignUp
@@ -170,11 +171,22 @@
             this.usernameSignUp.Size = new System.Drawing.Size(196, 22);
             this.usernameSignUp.TabIndex = 15;
             // 
+            // login
+            // 
+            this.login.Location = new System.Drawing.Point(381, 394);
+            this.login.Name = "login";
+            this.login.Size = new System.Drawing.Size(74, 36);
+            this.login.TabIndex = 30;
+            this.login.Text = "Log In";
+            this.login.UseVisualStyleBackColor = true;
+            this.login.Click += new System.EventHandler(this.login_Click);
+            // 
             // signUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.login);
             this.Controls.Add(this.answerSignUp);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button1);
@@ -214,5 +226,6 @@
         private System.Windows.Forms.TextBox confirmpasswordSignUp;
         private System.Windows.Forms.TextBox passwordSignUp;
         private System.Windows.Forms.TextBox usernameSignUp;
+        private System.Windows.Forms.Button login;
     }
 }

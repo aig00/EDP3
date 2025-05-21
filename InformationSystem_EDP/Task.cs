@@ -22,11 +22,11 @@ namespace InformationSystem_EDP
         private void AddT_Click(object sender, EventArgs e)
         {
             // Create and show the AddTask form
-            AddTask addTaskForm = new AddTask();
+            AddTask addTaskForm = new AddTask(this);
             addTaskForm.Show();
         }
 
-        private void LoadTasks()
+        public void LoadTasks()
         {
             using (MySqlConnection conn = DbHelper.GetConnection())
             {
@@ -71,6 +71,46 @@ namespace InformationSystem_EDP
                 {
                     MessageBox.Show("Error loading tasks: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+            }
+        }
+
+        private void export_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "CSV files (*.csv)|*.csv";
+                saveFileDialog.Title = "Export Task Data";
+                saveFileDialog.FileName = "tasks_" + DateTime.Now.ToString("yyyyMMdd");
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    StringBuilder csv = new StringBuilder();
+                    
+                    // Add headers
+                    csv.AppendLine("Title,Description,Due Date,Assigned To,Project");
+
+                    // Add data
+                    foreach (DataGridViewRow row in tasksGridView1.Rows)
+                    {
+                        if (!row.IsNewRow)
+                        {
+                            csv.AppendLine(string.Format("{0},{1},{2},{3},{4}",
+                                row.Cells["TitleT"].Value,
+                                row.Cells["DescriptionE"].Value,
+                                row.Cells["DueDateT"].Value,
+                                row.Cells["AssignedToT"].Value,
+                                row.Cells["ProjectT"].Value));
+                        }
+                    }
+
+                    System.IO.File.WriteAllText(saveFileDialog.FileName, csv.ToString());
+                    MessageBox.Show("Data exported successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error exporting data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -4,6 +4,7 @@ using MySql.Data.MySqlClient;
 using System.Configuration;
 using System.Security.Cryptography;
 using System.Text;
+using System.Collections.Generic;
 
 namespace InformationSystem_EDP
 {
@@ -16,6 +17,7 @@ namespace InformationSystem_EDP
         {
             InitializeComponent();
             LoadDepartments();
+            LoadProjectsForAssignment();
             this.employeeId = employeeId;
             this.isEditMode = employeeId.HasValue;
 
@@ -99,6 +101,12 @@ namespace InformationSystem_EDP
                 return;
             }
 
+            if (!isEditMode && projectAE.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a project to assign.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             using (MySqlConnection conn = DbHelper.GetConnection())
             {
                 try
@@ -118,7 +126,8 @@ namespace InformationSystem_EDP
                     {
                         query = @"INSERT INTO Employees (FullName, Email, PhoneNumber, DepartmentID) 
                                 VALUES (@FullName, @Email, @PhoneNumber, 
-                                        (SELECT DepartmentID FROM Departments WHERE DepartmentName = @DepartmentName)";
+                                        (SELECT DepartmentID FROM Departments WHERE DepartmentName = @DepartmentName));
+                                SELECT LAST_INSERT_ID();";
                     }
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
@@ -131,11 +140,29 @@ namespace InformationSystem_EDP
                         if (isEditMode)
                         {
                             cmd.Parameters.AddWithValue("@EmployeeID", employeeId);
+                            cmd.ExecuteNonQuery();
+                            MessageBox.Show("Employee updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.Close();
                         }
+                        else
+                        {
+                            // Insert employee and get new EmployeeID
+                            object result = cmd.ExecuteScalar();
+                            int newEmployeeId = Convert.ToInt32(result);
 
-                        cmd.ExecuteNonQuery();
-                        MessageBox.Show($"Employee {(isEditMode ? "updated" : "added")} successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        this.Close();
+                            // Assign to project
+                            var selectedProject = (KeyValuePair<int, string>)projectAE.SelectedItem;
+                            string assignQuery = "INSERT INTO ProjectAssignments (EmployeeID, ProjectID) VALUES (@EmployeeID, @ProjectID)";
+                            using (MySqlCommand assignCmd = new MySqlCommand(assignQuery, conn))
+                            {
+                                assignCmd.Parameters.AddWithValue("@EmployeeID", newEmployeeId);
+                                assignCmd.Parameters.AddWithValue("@ProjectID", selectedProject.Key);
+                                assignCmd.ExecuteNonQuery();
+                            }
+
+                            MessageBox.Show("Employee added and assigned to project successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.Close();
+                        }
                     }
                 }
                 catch (Exception ex)
@@ -147,6 +174,39 @@ namespace InformationSystem_EDP
 
         private void DepartmentAE_SelectedIndexChanged(object sender, EventArgs e)
         {
+        }
+
+        private void projectAE_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoadProjectsForAssignment()
+        {
+            using (MySqlConnection conn = DbHelper.GetConnection())
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT ProjectID, ProjectName FROM Projects";
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        projectAE.Items.Clear();
+                        while (reader.Read())
+                        {
+                            projectAE.Items.Add(new KeyValuePair<int, string>(
+                                reader.GetInt32("ProjectID"),
+                                reader["ProjectName"].ToString()
+                            ));
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error loading projects: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

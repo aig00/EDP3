@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.departmentGridView1 = new System.Windows.Forms.DataGridView();
-            this.SaveD = new System.Windows.Forms.Button();
-            this.AddD = new System.Windows.Forms.Button();
             this.DepartmentT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Created = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AddD = new System.Windows.Forms.Button();
+            this.export = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.departmentGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,25 +51,6 @@
             this.departmentGridView1.RowTemplate.Height = 24;
             this.departmentGridView1.Size = new System.Drawing.Size(781, 289);
             this.departmentGridView1.TabIndex = 0;
-            // 
-            // SaveD
-            // 
-            this.SaveD.Location = new System.Drawing.Point(849, 176);
-            this.SaveD.Name = "SaveD";
-            this.SaveD.Size = new System.Drawing.Size(108, 46);
-            this.SaveD.TabIndex = 1;
-            this.SaveD.Text = "Save ";
-            this.SaveD.UseVisualStyleBackColor = true;
-            // 
-            // AddD
-            // 
-            this.AddD.Location = new System.Drawing.Point(849, 108);
-            this.AddD.Name = "AddD";
-            this.AddD.Size = new System.Drawing.Size(108, 46);
-            this.AddD.TabIndex = 2;
-            this.AddD.Text = "Add";
-            this.AddD.UseVisualStyleBackColor = true;
-            this.AddD.Click += new System.EventHandler(this.AddD_Click);
             // 
             // DepartmentT
             // 
@@ -92,13 +73,32 @@
             this.Created.Name = "Created";
             this.Created.Width = 125;
             // 
+            // AddD
+            // 
+            this.AddD.Location = new System.Drawing.Point(849, 108);
+            this.AddD.Name = "AddD";
+            this.AddD.Size = new System.Drawing.Size(108, 46);
+            this.AddD.TabIndex = 2;
+            this.AddD.Text = "Add";
+            this.AddD.UseVisualStyleBackColor = true;
+            this.AddD.Click += new System.EventHandler(this.AddD_Click);
+            // 
+            // export
+            // 
+            this.export.Location = new System.Drawing.Point(849, 176);
+            this.export.Name = "export";
+            this.export.Size = new System.Drawing.Size(108, 46);
+            this.export.TabIndex = 1;
+            this.export.Text = "EXPORT";
+            this.export.UseVisualStyleBackColor = true;
+            // 
             // Departments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(969, 384);
             this.Controls.Add(this.AddD);
-            this.Controls.Add(this.SaveD);
+            this.Controls.Add(this.export);
             this.Controls.Add(this.departmentGridView1);
             this.Name = "Departments";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -111,10 +111,10 @@
         #endregion
 
         private System.Windows.Forms.DataGridView departmentGridView1;
-        private System.Windows.Forms.Button SaveD;
         private System.Windows.Forms.Button AddD;
         private System.Windows.Forms.DataGridViewTextBoxColumn DepartmentT;
         private System.Windows.Forms.DataGridViewTextBoxColumn Description;
         private System.Windows.Forms.DataGridViewTextBoxColumn Created;
+        private System.Windows.Forms.Button export;
     }
 }

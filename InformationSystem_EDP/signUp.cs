@@ -71,5 +71,12 @@ namespace InformationSystem_EDP
         {
 
         }
+
+        private void login_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            login loginForm = new login();
+            loginForm.Show();
+        }
     }
 }

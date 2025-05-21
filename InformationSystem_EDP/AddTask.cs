@@ -13,11 +13,22 @@ namespace InformationSystem_EDP
 {
     public partial class AddTask : Form
     {
-        public AddTask()
+        private Task parentTaskForm;
+
+        public AddTask(Task parentForm = null)
         {
             InitializeComponent();
+            parentTaskForm = parentForm;
             LoadProjects();
             LoadEmployees();
+            InitializeComboBoxes();
+            InitializeDateTimePicker();
+        }
+
+        private void InitializeDateTimePicker()
+        {
+            DueDateAT.Format = DateTimePickerFormat.Short;
+            DueDateAT.Value = DateTime.Now.AddDays(7); // Default to 1 week from now
         }
 
         private void LoadProjects()
@@ -78,6 +89,17 @@ namespace InformationSystem_EDP
             }
         }
 
+        private void InitializeComboBoxes()
+        {
+            // Initialize Status ComboBox
+            statusSelect.Items.AddRange(new string[] { "Pending", "In Progress", "Completed", "On Hold", "Cancelled" });
+            statusSelect.SelectedIndex = 0;
+
+            // Initialize Priority ComboBox
+            prioritySelect.Items.AddRange(new string[] { "Low", "Medium", "High", "Urgent" });
+            prioritySelect.SelectedIndex = 1; // Default to Medium
+        }
+
         private void Save1_Click(object sender, EventArgs e)
         {
             
@@ -92,38 +114,31 @@ namespace InformationSystem_EDP
 
         private void Save1_Click_1(object sender, EventArgs e)
         {
-            using (MySqlConnection conn = DbHelper.GetConnection())
+            if (string.IsNullOrWhiteSpace(TitleAT.Text))
             {
-                if (string.IsNullOrWhiteSpace(TitleAT.Text))
-                {
-                    MessageBox.Show("Please enter a task title.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
+                MessageBox.Show("Please enter a task title.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-                if (projectSelect.SelectedItem == null)
-                {
-                    MessageBox.Show("Please select a project.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
+            if (projectSelect.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a project.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-                if (AssignedToAT.SelectedItem == null)
-                {
-                    MessageBox.Show("Please select an employee to assign the task to.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
+            if (AssignedToAT.SelectedItem == null)
+            {
+                MessageBox.Show("Please select an employee to assign the task to.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-                DateTime dueDate;
-                if (!DateTime.TryParse(DueDateAT.Text, out dueDate))
-                {
-                    MessageBox.Show("Please enter a valid due date.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-
-                try
+            try
+            {
+                using (MySqlConnection conn = DbHelper.GetConnection())
                 {
                     conn.Open();
-                    string query = @"INSERT INTO Tasks (Title, Description, ProjectID, AssignedTo, DueDate, Status, Priority, CreatedAt, UpdatedAt) 
-                                   VALUES (@Title, @Description, @ProjectID, @AssignedTo, @DueDate, 'Pending', 'Medium', NOW(), NOW())";
+                    string query = @"INSERT INTO Tasks (Title, ProjectID, AssignedTo, DueDate, Status, Priority, CreatedAt) 
+                                   VALUES (@Title, @ProjectID, @AssignedTo, @DueDate, @Status, @Priority, NOW())";
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
@@ -133,18 +148,56 @@ namespace InformationSystem_EDP
                         cmd.Parameters.AddWithValue("@Title", TitleAT.Text);
                         cmd.Parameters.AddWithValue("@ProjectID", selectedProject.Key);
                         cmd.Parameters.AddWithValue("@AssignedTo", selectedEmployee.Key);
-                        cmd.Parameters.AddWithValue("@DueDate", dueDate);
+                        cmd.Parameters.AddWithValue("@DueDate", DueDateAT.Value);
+                        cmd.Parameters.AddWithValue("@Status", statusSelect.SelectedItem?.ToString() ?? "Pending");
+                        cmd.Parameters.AddWithValue("@Priority", prioritySelect.SelectedItem?.ToString() ?? "Medium");
 
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Task added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        
+                        // Reload the parent form's grid if it exists
+                        if (parentTaskForm != null)
+                        {
+                            parentTaskForm.LoadTasks();
+                        }
+                        
                         this.Close();
                     }
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error adding task: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error adding task: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void TitleAT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void projectSelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AssignedToAT_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statusSelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void prioritySelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DueDateAT_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -32,7 +32,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.DepartmentD = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.SettingsD = new System.Windows.Forms.Button();
             this.LogsD = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.TasksD = new System.Windows.Forms.Button();
@@ -49,6 +48,7 @@
             this.DepartmentDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LinkedUsernameDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TasksDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.export = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dashboardGridView1)).BeginInit();
             this.SuspendLayout();
@@ -59,7 +59,6 @@
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.DepartmentD);
             this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.SettingsD);
             this.panel1.Controls.Add(this.LogsD);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.TasksD);
@@ -104,15 +103,6 @@
             this.button6.Text = "Log Out";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // SettingsD
-            // 
-            this.SettingsD.Location = new System.Drawing.Point(34, 436);
-            this.SettingsD.Name = "SettingsD";
-            this.SettingsD.Size = new System.Drawing.Size(108, 46);
-            this.SettingsD.TabIndex = 6;
-            this.SettingsD.Text = "Settings";
-            this.SettingsD.UseVisualStyleBackColor = true;
             // 
             // LogsD
             // 
@@ -219,7 +209,7 @@
             this.dashboardGridView1.Name = "dashboardGridView1";
             this.dashboardGridView1.RowHeadersWidth = 51;
             this.dashboardGridView1.RowTemplate.Height = 24;
-            this.dashboardGridView1.Size = new System.Drawing.Size(955, 511);
+            this.dashboardGridView1.Size = new System.Drawing.Size(955, 480);
             this.dashboardGridView1.TabIndex = 1;
             this.dashboardGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -266,11 +256,21 @@
             this.TasksDT.Name = "TasksDT";
             this.TasksDT.Width = 150;
             // 
+            // export
+            // 
+            this.export.Location = new System.Drawing.Point(1028, 552);
+            this.export.Name = "export";
+            this.export.Size = new System.Drawing.Size(117, 37);
+            this.export.TabIndex = 3;
+            this.export.Text = "EXPORT";
+            this.export.UseVisualStyleBackColor = true;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1157, 601);
+            this.Controls.Add(this.export);
             this.Controls.Add(this.dashboardGridView1);
             this.Controls.Add(this.panel1);
             this.Name = "Dashboard";
@@ -285,7 +285,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button SettingsD;
         private System.Windows.Forms.Button LogsD;
         private System.Windows.Forms.Button TasksD;
         private System.Windows.Forms.Button ProjectsD;
@@ -305,6 +304,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DepartmentDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn LinkedUsernameDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn TasksDT;
+        private System.Windows.Forms.Button export;
     }
 }
 

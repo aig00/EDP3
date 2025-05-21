@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.prioritySelect = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.statusSelect = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.projectSelect = new System.Windows.Forms.ComboBox();
             this.AssignedToAT = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.DueDateAT = new System.Windows.Forms.TextBox();
+            this.DueDateAT = new System.Windows.Forms.DateTimePicker();
             this.TitleAT = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Save1 = new System.Windows.Forms.Button();
-            this.projectSelect = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.statusSelect = new System.Windows.Forms.ComboBox();
-            this.prioritySelect = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +65,54 @@
             this.panel1.Size = new System.Drawing.Size(460, 279);
             this.panel1.TabIndex = 10;
             // 
+            // prioritySelect
+            // 
+            this.prioritySelect.FormattingEnabled = true;
+            this.prioritySelect.Location = new System.Drawing.Point(245, 228);
+            this.prioritySelect.Name = "prioritySelect";
+            this.prioritySelect.Size = new System.Drawing.Size(191, 24);
+            this.prioritySelect.TabIndex = 17;
+            this.prioritySelect.SelectedIndexChanged += new System.EventHandler(this.prioritySelect_SelectedIndexChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(240, 182);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(94, 29);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Priority:";
+            // 
+            // statusSelect
+            // 
+            this.statusSelect.FormattingEnabled = true;
+            this.statusSelect.Location = new System.Drawing.Point(245, 141);
+            this.statusSelect.Name = "statusSelect";
+            this.statusSelect.Size = new System.Drawing.Size(191, 24);
+            this.statusSelect.TabIndex = 15;
+            this.statusSelect.SelectedIndexChanged += new System.EventHandler(this.statusSelect_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(240, 95);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 29);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Status:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // projectSelect
+            // 
+            this.projectSelect.FormattingEnabled = true;
+            this.projectSelect.Location = new System.Drawing.Point(19, 127);
+            this.projectSelect.Name = "projectSelect";
+            this.projectSelect.Size = new System.Drawing.Size(191, 24);
+            this.projectSelect.TabIndex = 13;
+            this.projectSelect.SelectedIndexChanged += new System.EventHandler(this.projectSelect_SelectedIndexChanged);
+            // 
             // AssignedToAT
             // 
             this.AssignedToAT.FormattingEnabled = true;
@@ -72,6 +120,7 @@
             this.AssignedToAT.Name = "AssignedToAT";
             this.AssignedToAT.Size = new System.Drawing.Size(191, 24);
             this.AssignedToAT.TabIndex = 11;
+            this.AssignedToAT.SelectedIndexChanged += new System.EventHandler(this.AssignedToAT_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -99,6 +148,7 @@
             this.DueDateAT.Name = "DueDateAT";
             this.DueDateAT.Size = new System.Drawing.Size(191, 22);
             this.DueDateAT.TabIndex = 7;
+            this.DueDateAT.TextChanged += new System.EventHandler(this.DueDateAT_TextChanged);
             // 
             // TitleAT
             // 
@@ -106,6 +156,7 @@
             this.TitleAT.Name = "TitleAT";
             this.TitleAT.Size = new System.Drawing.Size(191, 22);
             this.TitleAT.TabIndex = 4;
+            this.TitleAT.TextChanged += new System.EventHandler(this.TitleAT_TextChanged);
             // 
             // label4
             // 
@@ -137,51 +188,6 @@
             this.Save1.UseVisualStyleBackColor = true;
             this.Save1.Click += new System.EventHandler(this.Save1_Click_1);
             // 
-            // projectSelect
-            // 
-            this.projectSelect.FormattingEnabled = true;
-            this.projectSelect.Location = new System.Drawing.Point(19, 127);
-            this.projectSelect.Name = "projectSelect";
-            this.projectSelect.Size = new System.Drawing.Size(191, 24);
-            this.projectSelect.TabIndex = 13;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(240, 95);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 29);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Status:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // statusSelect
-            // 
-            this.statusSelect.FormattingEnabled = true;
-            this.statusSelect.Location = new System.Drawing.Point(245, 141);
-            this.statusSelect.Name = "statusSelect";
-            this.statusSelect.Size = new System.Drawing.Size(191, 24);
-            this.statusSelect.TabIndex = 15;
-            // 
-            // prioritySelect
-            // 
-            this.prioritySelect.FormattingEnabled = true;
-            this.prioritySelect.Location = new System.Drawing.Point(245, 228);
-            this.prioritySelect.Name = "prioritySelect";
-            this.prioritySelect.Size = new System.Drawing.Size(191, 24);
-            this.prioritySelect.TabIndex = 17;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(240, 182);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(94, 29);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Priority:";
-            // 
             // AddTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -204,7 +210,7 @@
         private System.Windows.Forms.ComboBox AssignedToAT;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox DueDateAT;
+        private System.Windows.Forms.DateTimePicker DueDateAT;
         private System.Windows.Forms.TextBox TitleAT;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;

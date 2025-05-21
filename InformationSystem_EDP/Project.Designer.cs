@@ -30,11 +30,10 @@
         {
             this.projectsGridView1 = new System.Windows.Forms.DataGridView();
             this.ProjectNamePT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DescriptionPT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.StartDatePT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EndDatePT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AddP = new System.Windows.Forms.Button();
-            this.SaveP = new System.Windows.Forms.Button();
+            this.export = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.projectsGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +43,6 @@
             this.projectsGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.projectsGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ProjectNamePT,
-            this.DescriptionPT,
             this.StartDatePT,
             this.EndDatePT});
             this.projectsGridView1.Location = new System.Drawing.Point(15, 16);
@@ -60,13 +58,6 @@
             this.ProjectNamePT.MinimumWidth = 6;
             this.ProjectNamePT.Name = "ProjectNamePT";
             this.ProjectNamePT.Width = 150;
-            // 
-            // DescriptionPT
-            // 
-            this.DescriptionPT.HeaderText = "Description";
-            this.DescriptionPT.MinimumWidth = 6;
-            this.DescriptionPT.Name = "DescriptionPT";
-            this.DescriptionPT.Width = 150;
             // 
             // StartDatePT
             // 
@@ -92,21 +83,22 @@
             this.AddP.UseVisualStyleBackColor = true;
             this.AddP.Click += new System.EventHandler(this.AddP_Click);
             // 
-            // SaveP
+            // export
             // 
-            this.SaveP.Location = new System.Drawing.Point(671, 221);
-            this.SaveP.Name = "SaveP";
-            this.SaveP.Size = new System.Drawing.Size(108, 46);
-            this.SaveP.TabIndex = 5;
-            this.SaveP.Text = "Save";
-            this.SaveP.UseVisualStyleBackColor = true;
+            this.export.Location = new System.Drawing.Point(671, 221);
+            this.export.Name = "export";
+            this.export.Size = new System.Drawing.Size(108, 46);
+            this.export.TabIndex = 5;
+            this.export.Text = "EXPORT";
+            this.export.UseVisualStyleBackColor = true;
+            this.export.Click += new System.EventHandler(this.export_Click);
             // 
             // Project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 450);
-            this.Controls.Add(this.SaveP);
+            this.Controls.Add(this.export);
             this.Controls.Add(this.AddP);
             this.Controls.Add(this.projectsGridView1);
             this.Name = "Project";
@@ -120,11 +112,10 @@
         #endregion
 
         private System.Windows.Forms.DataGridView projectsGridView1;
+        private System.Windows.Forms.Button AddP;
+        private System.Windows.Forms.Button export;
         private System.Windows.Forms.DataGridViewTextBoxColumn ProjectNamePT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DescriptionPT;
         private System.Windows.Forms.DataGridViewTextBoxColumn StartDatePT;
         private System.Windows.Forms.DataGridViewTextBoxColumn EndDatePT;
-        private System.Windows.Forms.Button AddP;
-        private System.Windows.Forms.Button SaveP;
     }
 }
