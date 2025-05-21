@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|c:\\users\\darius\\desktop\\edp3\\informationsystem_edp\\logs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E666D83D-3E32-428F-BB22-2280DB06BEF3}|InformationSystem_EDP.csproj|solutionrelative:logs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 303,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T03:17:39.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T03:17:35.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DBhelper.cs",
+              "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\DBhelper.cs",
+              "RelativeDocumentMoniker": "DBhelper.cs",
+              "ToolTip": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\DBhelper.cs",
+              "RelativeToolTip": "DBhelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T03:17:30.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Logs.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.Designer.cs",
               "RelativeDocumentMoniker": "Logs.Designer.cs",
@@ -55,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
@@ -67,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Task.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Task.cs",
               "RelativeDocumentMoniker": "Task.cs",
@@ -79,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Project.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Project.cs",
               "RelativeDocumentMoniker": "Project.cs",
@@ -91,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Logs.cs",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.cs",
               "RelativeDocumentMoniker": "Logs.cs",
@@ -104,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Logs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\Logs.cs",
               "RelativeDocumentMoniker": "Logs.cs",
@@ -116,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "EmployeeM.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Darius\\Desktop\\EDP3\\InformationSystem_EDP\\EmployeeM.cs",
               "RelativeDocumentMoniker": "EmployeeM.cs",

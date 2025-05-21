@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using MySql.Data.MySqlClient;
+using System.IO;
 
 namespace InformationSystem_EDP
 {
@@ -169,6 +170,19 @@ namespace InformationSystem_EDP
                     cmd.ExecuteNonQuery();
                 }
             }
+        }
+
+        public static string GetExportDirectory()
+        {
+            string exportDir = Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+                "InformationSystem"
+            );
+            if (!Directory.Exists(exportDir))
+            {
+                Directory.CreateDirectory(exportDir);
+            }
+            return exportDir;
         }
     }
 }

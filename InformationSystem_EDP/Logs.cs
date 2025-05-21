@@ -72,6 +72,7 @@ namespace InformationSystem_EDP
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
                 saveFileDialog.Filter = "CSV files (*.csv)|*.csv";
                 saveFileDialog.Title = "Export Logs Data";
+                saveFileDialog.InitialDirectory = DbHelper.GetExportDirectory();
                 saveFileDialog.FileName = "logs_" + DateTime.Now.ToString("yyyyMMdd");
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)

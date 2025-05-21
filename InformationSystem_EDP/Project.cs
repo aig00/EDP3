@@ -84,6 +84,7 @@ namespace InformationSystem_EDP
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
                 saveFileDialog.Filter = "CSV files (*.csv)|*.csv";
                 saveFileDialog.Title = "Export Project Data";
+                saveFileDialog.InitialDirectory = DbHelper.GetExportDirectory();
                 saveFileDialog.FileName = "projects_" + DateTime.Now.ToString("yyyyMMdd");
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)

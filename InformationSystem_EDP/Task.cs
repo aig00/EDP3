@@ -81,6 +81,7 @@ namespace InformationSystem_EDP
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
                 saveFileDialog.Filter = "CSV files (*.csv)|*.csv";
                 saveFileDialog.Title = "Export Task Data";
+                saveFileDialog.InitialDirectory = DbHelper.GetExportDirectory();
                 saveFileDialog.FileName = "tasks_" + DateTime.Now.ToString("yyyyMMdd");
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
